@@ -10,7 +10,7 @@ SECTION "rst8", ROM0 ; rst FarCall
 SECTION "rst10", ROM0 ; rst Bankswitch
 rst_bankswitch:
 	ldh [hROMBank], a
-	ld [MBC3RomBank], a
+	ld [TPP1RomBank], a
 	ret
 
 SECTION "rst18", ROM0 ; rst FarCall2
